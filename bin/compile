@@ -16,5 +16,5 @@ echo "done"
 
 MC_VERSION="${MC_VERSION:-1.10.2}"
 echo -n "-----> Installing server version:${MC_VERSION}... "
-curl --silent -o $BUILD_DIR/server.jar "https://s3.amazonaws.com/Minecraft.Download/versions/${MC_VERSION}/minecraft_server.${MC_VERSION}.jar" | indent
+curl --silent -o $BUILD_DIR/server.jar "https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/379/downloads/paper-1.18.2-379.jar" | indent
 echo "done"
